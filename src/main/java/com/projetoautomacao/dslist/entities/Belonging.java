@@ -2,7 +2,6 @@ package com.projetoautomacao.dslist.entities;
 
 import java.util.Objects;
 
-import jakarta.persistence.Embedded;
 import jakarta.persistence.EmbeddedId;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
@@ -17,7 +16,6 @@ public class Belonging {
 	private Integer position;
 	
 	public Belonging() {
-		
 	}
 
 	public Belonging(Game game, GameList list, Integer position) {
